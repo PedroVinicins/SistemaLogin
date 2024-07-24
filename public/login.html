@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="link.js"></script>
+    <script src="logar.js"></script>
+    <link rel="stylesheet" href="/public/login.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="/public/LoginView.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento Escolar /logar</title>
+</head>
+<body>
+    <div class="main-center">
+        <div class="Cadastro" id="logar">
+            <h2>Notas Escolar <i class='bx bx-edit-alt'></i></h2>
+            <br>
+            <div class="inputBox">
+                <input type="text" id="login" class="inputUser" name="login" required aria-label="Nome">
+                <label for="login" class="labelInput">Nome</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="password" id="senha" class="inputUser" name="senha" required aria-label="Senha">
+                <label for="senha" class="labelInput">Senha</label>
+            </div>
+            <button type="button" onclick="abrirHTML('cadastra')" class="nova-açao">Faça seu Cadastro</button>
+            <br>
+            <input type="submit" id="submit" onclick="logar() ;return false">
+        </div>
+    </div>
+
+    <button type="button" onclick="abrirHTML('usuariotest')" class="usuario-test">usuario-test</button>
+</body>
+</html>
