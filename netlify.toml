@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/public/"
+to = "/public/logar.html"
 status = 200
