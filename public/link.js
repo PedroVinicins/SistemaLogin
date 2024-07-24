@@ -5,6 +5,6 @@ function abrirHTML(pagina) {
     }
 
     if(pagina === 'usuariotest'){
-        location.href = 'https://sisteamdoc.netlify.app/';
+        location.href = 'https://minhasnotaspebrs.netlify.app/';
     }
 };

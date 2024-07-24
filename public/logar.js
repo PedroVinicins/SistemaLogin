@@ -9,7 +9,7 @@ function logar() {
 
     if (login === '123' && senha === '123') {
         alert('Vamos entrar!!');
-        location.href = 'https://sisteamdoc.netlify.app/';
+        location.href = 'https://minhasnotaspebrs.netlify.app/';
     } else {
         alert('Nome ou senha inválidos!!!');
     }
